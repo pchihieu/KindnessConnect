@@ -1,12 +1,9 @@
 ## Website
-<!--Anh hien Dan thay Link moi vao day-->
-https://volunteer-connect.netlify.app/contact 
+https://kindnessconnect.netlify.app/
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
   - [About](#about)
-  <!-- - [Features](#features)
-  - [Screenshots](#screenshots) -->
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -16,22 +13,6 @@ https://volunteer-connect.netlify.app/contact
 Welcome to KindnessConnect
 
 We believe that volunteering has the power to change lives and communities. KindnessConnect was created to connect people who want to help with exciting volunteer opportunities. Join now to make a difference and hope with us!
-
-<!-- ## Features
-- Login
-- Sing-Up
-- Missions
-
-## Screenshots
-
-<p float='left'>
-<img src="images/home.png" width="45%" alt='screen1'>
-<img src="images/search.png" width="45%" alt='screen1'>
-<img src="images/interestingThings.png" width="45%" alt='screen1'>
-<img src="images/audio.png" width="45%" alt='screen1'>
-</p> -->
-
-
 
 ## Getting Started
 
