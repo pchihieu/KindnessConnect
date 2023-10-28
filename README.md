@@ -1,5 +1,6 @@
 ## Website
-https://volunteer-connect.netlify.app/contact
+<!--Anh hien Dan thay Link moi vao day-->
+https://volunteer-connect.netlify.app/contact 
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
@@ -12,9 +13,9 @@ https://volunteer-connect.netlify.app/contact
 
 ## About
 
-Welcome to VolunteerConnect
+Welcome to KindnessConnect
 
-We believe that volunteering has the power to change lives and communities. VolunteerConnect was created to connect people who want to help with exciting volunteer opportunities. Join now to make a difference and hope with us!
+We believe that volunteering has the power to change lives and communities. KindnessConnect was created to connect people who want to help with exciting volunteer opportunities. Join now to make a difference and hope with us!
 
 <!-- ## Features
 - Login
@@ -47,7 +48,7 @@ We believe that volunteering has the power to change lives and communities. Volu
 - Run the app using `yarn start` or another suitable command
 
 ```bash
-git clone https://github.com/hienpc060199/VolunteerConnect.git
-cd VolunteerConnect
+git clone https://github.com/pchihieu/KindnessConnect.git
+cd KindnessConnect-master
 yarn
 yarn start
