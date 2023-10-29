@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+  }
+
+.exchange--each-box{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    height: 330px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.exchange--img {
+    height: 150px; 
+    max-width: 150px;
+    align-self: center;
+}
+
+.exchange {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.CkcRL {
+    margin-top: 10px;
+}
+
+._9MmQs {
+    color: #2e3a59;
+    background-color: #edf1f7;
+    border-radius: 100px;
+    padding: 4px 15px;
+    border: 1px solid #edf1f7;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+._263v2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.present--name {
+    color: var(--primary, #4089D4);
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.exchange--button--instock {
+    align-self: center;
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 100px;
+    background: var( --brand-gradient, linear-gradient(90deg, #253FA1 0%, #4089D4 100%) );
+    font-size: 18px;
+    font-weight: 700;
+
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+
+    color: #ffe7a2;
+    align-self: center;
+
+}
+
+.exchange--button--instock {
+    align-self: center;
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 100px;
+    background: var( --brand-gradient, linear-gradient(90deg, #253FA1 0%, #4089D4 100%) );
+    font-size: 18px;
+    font-weight: 700;
+
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+
+    color: #ffe7a2;
+    align-self: center;
+
+}
+
+.exchange--button--outstock {
+    align-self: center;
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 100px;
+    background: grey;
+    font-size: 18px;
+    font-weight: 700;
+
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+
+    color: #ffe7a2;
+    align-self: center;
+
+
+}
+
+.exchange--border {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px;
+    border: 2px dashed #4089D4;
+    border-radius: 30px;
+    align-self: center;
+}
+
+.present--remain {
+    font-size: 15px;
+}

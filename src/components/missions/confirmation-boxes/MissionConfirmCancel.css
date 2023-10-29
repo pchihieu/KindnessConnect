@@ -1,0 +1,153 @@
+.mission-confirm--bg {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+
+.mission-confirm--notif {
+  display: flex;
+  width: 440px;
+  padding: 48px;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3000;
+  border-radius: 20px;
+  background: #fff;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mission-confirm--notif_checkImg {
+  width: 60vw;
+  /* min-height: 550px; */
+}
+
+.checkImg--xmark_container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.checkImg--xmark_container img {
+  width: 30px;
+}
+
+.mission-confirm--headline {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.mission-confirm--question {
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.mission-confirm--buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  justify-content: center;
+}
+
+.mission-confirm--button {
+  font-weight: 700;
+  display: flex;
+  width: 113px;
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.mission-confirm--btn0_return, .mission-confirm--btn1_accept, .mission-confirm--btn1_cancel {
+  border: 2px solid #253FA1;
+  background-color: white;
+}
+
+.mission-confirm--btn2_accept, .mission-confirm--btn2_cancel {
+  border: none;
+  border-radius: 100px;
+  background: var(
+    --brand-gradient,
+    linear-gradient(90deg, #253FA1 0%, #4089D4 100%)
+  );
+}
+
+.checkImg--img_container {
+  width: 100%;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.CheckImage--img {
+  /* height: 100px; */
+  width: 300px;
+  border-radius: 8px;
+}
+
+.mission-upload--choose-file {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission-upload--buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.mission-upload--headline {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.test {
+  width: 190px;
+  margin: 0 auto;
+}
+
+.checkImg--eachImg {
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "Open Sans";
+  font-weight: 800;
+  padding-bottom: 12px;
+}
+
+.test2 {
+  padding: 20px 0px;
+}
+
+.form-info {
+  display: flex;
+  width: 360px;
+  padding: 7px 0px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.input--css {
+  border-radius: 8px;
+  border: #4089D4 1px solid;
+}
+
+.input--name {
+  width: 90px;
+}
