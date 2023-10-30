@@ -42,23 +42,26 @@
   padding: 6px 16px;
 }
 
-.mission--status_accepted, .mission--status_registerOpen  {
+.mission--status_accepted,
+.mission--status_registerOpen {
   background: rgba(94, 129, 247, 0.5);
   border: 1px solid var(--secondary-new, #5e81f7);
 }
 
-.mission--status_pending, .mission--status_inProgress {
+.mission--status_pending,
+.mission--status_inProgress {
   border: 1px solid var(--secondary-closed, #ff7a00);
   background: rgba(255, 122, 0, 0.5);
 }
 
-.mission--status_denied, .mission--status_registerClosed {
+.mission--status_denied,
+.mission--status_registerClosed {
   border: 1px solid var(--secondary-closed, #ff2727);
   background: rgba(255, 0, 0, 0.5);
 }
 
 .mission--status_done {
-  border: 1px solid var(--secondary-in-progress, #4089D4);
+  border: 1px solid var(--secondary-in-progress, #4089d4);
   background: rgba(141, 224, 106, 0.5);
 }
 
@@ -76,6 +79,11 @@
 
 .mission--description {
   font-size: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mission--contact,
@@ -146,14 +154,14 @@
   border-radius: 100px;
   background: var(
     --brand-gradient,
-    linear-gradient(90deg, #253FA1 0%, #4089D4 100%)
+    linear-gradient(90deg, #253fa1 0%, #4089d4 100%)
   );
   border: none;
 }
 
 .mission--info_button {
   border-radius: 100px;
-  border: 2px solid #4089D4;
+  border: 2px solid #4089d4;
   background-color: rgb(246, 249, 235);
 }
 

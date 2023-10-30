@@ -3,7 +3,7 @@ import React from "react";
 const Input = ({inputType, inputPlaceholder, onChange, value}) => {
   return (
     <div className="login--input_container">
-      <input type={inputType} placeholder={inputPlaceholder} required onChange={onChange} value={value}/>
+      <input type={inputType} placeholder={inputPlaceholder} required={true} onChange={onChange} value={value}/>
     </div>
   );
 };

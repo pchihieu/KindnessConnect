@@ -5,15 +5,13 @@ const JoinInvitation = () => {
   return (
     <div className="joinInvitation">
       <div className="ji--content_container">
-        <div className="ji--headline">Sẵn sàng chung tay</div>
+        <div className="ji--headline">Chúng Tôi Sẵn Sàng Chung Tay</div>
         <div className="ji--text">
-          Chúng tôi luôn tìm kiếm những cá nhân tin vào sứ mệnh vì một Việt Nam
-          sạch hơn và xanh hơn. Nếu bạn thấy hứng thú tham gia cùng chúng tôi
-          hoặc có câu hỏi nào, xin vui lòng liên hệ
+        Tại Kindness, chúng tôi đặt tình nguyện và lòng nhân ái ở trung tâm mọi hoạt động của chúng tôi. Chúng tôi tin rằng bằng sự đoàn kết và hỗ trợ lẫn nhau, chúng ta có thể thay đổi cuộc sống và tạo nên một thế giới tốt đẹp hơn.
         </div>
         <div className="ji--buttons">
-          <button className="ji--btn1">greenenv@gmail.com</button>
-          <button className="ji--btn2">(+84) 912 345 678</button>
+          <button className="ji--btn1">kindness@gmail.com</button>
+          <button className="ji--btn2">(+84) 915 542 251</button>
         </div>
       </div>
     </div>

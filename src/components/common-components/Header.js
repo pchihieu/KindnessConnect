@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
-import logo from "./img/logoGreen.png";
+import logo from "./img/Layer_1.png";
 import notificationsActiveIcon from "./img/notifications_active.png";
 import bookmarkIcon from "./img/bookmark.png";
 import avatar from "./img/Avatar.png";

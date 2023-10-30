@@ -1,6 +1,6 @@
 import React from "react";
 
-import img from "./img/environment-volunteer-teamwork-concept 3.png";
+import img from "./img/people-stacking-hands-together-park.png";
 
 const Img = () => {
   return (

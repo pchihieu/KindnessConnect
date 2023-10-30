@@ -3,10 +3,6 @@ import callIcon from "../img/ic_call.png";
 import locationIcon from "../img/ic_location_on.png";
 import rewardIcon from "../img/ic_database.png";
 import userIcon from "../img/user-solid.svg";
-import pendingIcon from "../img/circle-exclamation-solid.svg";
-import checkedIcon from "../img/circle-check-solid.svg";
-import xmarkIcon from "../img/circle-xmark-solid.svg";
-import missionImg from "../img/mission-img.png";
 import "./Mission.css";
 import { useNavigate } from "react-router";
 import {
@@ -363,7 +359,7 @@ const Mission = (props) => {
           score={mission.score}
           duration={mission.duration}
           id={mission.id}
-          email = {localStorage.email}
+          email={localStorage.email}
           // HandleAcceptImage={HandleAcceptImage}
           // HandleNotAcceptImage={HandleNotAcceptImage}
           HandleConfirmCheckExit={HandleConfirmCheckExit}
@@ -429,7 +425,7 @@ const Mission = (props) => {
                 </>
               )}
             </div>
-            <div className="mission--description">{props.content}</div>
+            <div className="mission--description" dangerouslySetInnerHTML={ {__html:props.content} }></div>
           </div>
           <div className="mission--contacts">
             <div className="mission--contact">
@@ -582,7 +578,7 @@ const Mission = (props) => {
             ) : null}
           </div>
           <div className="img-part">
-            <img src={missionImg} alt="mission img" className="mission--img" />
+            <img src={mission.img} alt="mission img" className="mission--img" />
           </div>
         </div>
       </div>

@@ -17,8 +17,11 @@ align-self: stretch;
 height: 550px;
     display: flex;
 flex-shrink: 0;
-    background-image: url("./pic/image2.png");
+    background-image: url("./pic/people-preparing-foodbank-poor-people.png");
     justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .frame62 {
@@ -84,7 +87,9 @@ line-height: 30px;
     width: 423px;
 height: 550px;
 flex-shrink: 0;
-    background: url("./pic/image.png");
+    background: url("./pic/group-people-volunteering-foodbank-poor-people.png");
+    background-size: cover;
+    background-position: center;
     position: absolute;
     bottom: 0px;
     right: 8%;
@@ -105,7 +110,9 @@ align-self: stretch;
     width: 423px;
 height: 550px;
 flex-shrink: 0;
-    background: url("./pic/anh1.png");
+    background: url("./pic/group-different-people-volunteering-foodbank.png");
+    background-size: cover;
+    background-position: center;
     position: absolute;
     bottom: 0px;
     right: 8%;
@@ -116,6 +123,8 @@ flex-shrink: 0;
 height: 550px;
     display: flex;
 flex-shrink: 0;
-    background-image: url("./pic/anh2.png");
+    background-image: url("./pic/different-people-doing-volunteer-work-with-food.png");
+    background-size: cover;
+    background-position: center;
     justify-content: space-between;
 }

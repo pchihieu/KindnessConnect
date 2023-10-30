@@ -21,7 +21,7 @@ const CollaborationInvitation = () => {
       const count = await getDoc(doc(colRefMessageCount, "messageCount"));
       setmessageCount(count.data().value);
     };
-    getmessageCount();
+    // getmessageCount();
   });
 
   const HandleMessageExit = () => {
@@ -58,7 +58,7 @@ const CollaborationInvitation = () => {
     });
     Notify(
       "Thông báo",
-      "Bạn đã gửi biểu mẫu thành công! Xin cảm ơn bạn vì đã liên hệ với Green Env."
+      "Bạn đã gửi biểu mẫu thành công! Xin cảm ơn bạn vì đã liên hệ với Kindness."
     );
   };
 
@@ -84,7 +84,7 @@ const CollaborationInvitation = () => {
             </div>
           </div>
           <div className="ci--contacts">
-            <div className="ci--contact_email">greenenv@gmail.com</div>
+            <div className="ci--contact_email">kindness@gmail.com</div>
             <div className="ci--contact_call">(+84) 912 345 678</div>
           </div>
         </div>

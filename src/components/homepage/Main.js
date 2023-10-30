@@ -2,7 +2,7 @@ import React from "react";
 import "./css/Main.css";
 // import logo from "./css/pictures/logo.png";
 import gift from "./css/pictures/gifts.png";
-import volunteer2 from "./css/pictures/group-volunteers-collecting-garbage 2.png";
+import volunteer2 from "./css/pictures/group-different-people-volunteering-foodbank-poor-people.png";
 import twitter from "./css/pictures/twitter.svg";
 import insta from "./css/pictures/instagram.svg";
 import dribble from "./css/pictures/dribbble.svg";
@@ -26,8 +26,10 @@ const Main = () => {
       <Header /> 
       {/* Header here because <Footer /> somehow does not stick to the end of the page... */}
       <main>
-        <div className="main--intro">
-          <div className="main--assist">
+        <div className="main--intro" style={{position: 'relative'}}>
+          <div style={{backgroundColor: 'black', position: 'absolute', top: 0, left: 0,
+        right: 0, bottom: 0, opacity: 0.3, zIndex: 0}}></div>
+          <div className="main--assist" style={{zIndex: 1}}>
             <div className="main--chungtoi">Chúng tôi là Hội tình nguyện</div>
 
             <div className="main--mission">Nhiệm vụ của chúng tôi</div>
@@ -37,7 +39,7 @@ const Main = () => {
             </div>
           </div>
 
-          <button className="main--thamgia" onClick={handleToContact}>Tham gia cùng chúng tôi</button>
+          <button className="main--thamgia" onClick={handleToContact} style={{zIndex: 1}}>Tham gia cùng chúng tôi</button>
         </div>
 
         <div className="main--challenge">
@@ -47,16 +49,18 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="main--dump">
-          <div className="main--problem">
-            <h1 className="main--problem1">Vấn nạn ô nhiễm môi trường</h1>
+        <div className="main--dump" style={{position: 'relative'}}>
+          <div style={{backgroundColor: 'black', position: 'absolute', top: 0, left: 0,
+          right: 0, bottom: 0, opacity: 0.3, zIndex: 0}}></div>
+          <div className="main--problem" style={{zIndex: 1}}>
+            <h1 className="main--problem1" style={{width: '80%'}}>Tình Nguyện - Sức Mạnh của Lòng Nhân Ái</h1>
             <div className="main--problem2">
-              Cần hành động ngay vì một Việt Nam xanh và sạch
+            Chúng ta sống trong một thế giới đầy thách thức và cơ hội, và tình nguyện đã trở thành một phần quan trọng của cuộc sống xã hội. Tại Kindness, chúng tôi tin tưởng rằng tình nguyện là nguồn sức mạnh của lòng nhân ái và có khả năng biến đổi cuộc sống.
             </div>
           </div>
 
-          <div className="main--pics">
-            <div className="main--second_pic"></div>
+          <div className="main--pics" style={{zIndex: 1}}>
+            {/* <div className="main--second_pic"></div> */}
             <div className="main--third_pic"></div>
           </div>
         </div>
@@ -81,23 +85,25 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="main--tiepcan">
-          <h3 className="main--cachchungta">Chúng ta cần tiếp cận</h3>
-          <div className="main--chungtoi">
+        <div className="main--tiepcan" style={{position: 'relative'}}>
+          <div style={{backgroundColor: 'black', position: 'absolute', top: 0, left: 0,
+          right: 0, bottom: 0, opacity: 0.3, zIndex: 0}}></div>
+          <h3 className="main--cachchungta" style={{zIndex: 1}}>Chúng ta cần tiếp cận</h3>
+          <div className="main--chungtoi" style={{zIndex: 1}}>
           Bất kì ai cũng có thể đóng góp 1 phần nhỏ của mình,dù nhiều hay ít,thì quan trọng nhất vẫn là tấm lòng và lòng hảo tâm để giúp đỡ cộng đồng.Hơn thế nữa,bạn còn có thể lựa chọn quyên góp vào hoạt động cụ thể mà bạn mong muốn để đóng góp.Tất cả đóng góp của bạn đề được ghi nhận lại với lòng biết ơn và sự kính trọng
           </div>
 
-          <img src={volunteer2} alt="fuck" className="main--volunteer2"></img>
+          <img src={volunteer2} alt="fuck" className="main--volunteer2" style={{zIndex: 1}}></img>
 
-          <h3 className="main--hayhanhdong">
+          <h3 className="main--hayhanhdong" style={{zIndex: 1}}>
             “Chung tay lan tỏa yêu thương đến mọi người”
           </h3>
 
           <div className="main--last">
-            <div className="main--greenenv">(c) Green Env Viet Nam</div>
+            <div className="main--greenenv">(c) Kindness Viet Nam</div>
 
             <div className="main--middle">
-              <div className="main--mail">Greenenv@gmail.com</div>
+              <div className="main--mail">kindness@gmail.com</div>
 
               <div className="main--number">(+84) 912 345 678</div>
             </div>
