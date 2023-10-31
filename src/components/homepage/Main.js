@@ -30,12 +30,12 @@ const Main = () => {
           <div style={{backgroundColor: 'black', position: 'absolute', top: 0, left: 0,
         right: 0, bottom: 0, opacity: 0.3, zIndex: 0}}></div>
           <div className="main--assist" style={{zIndex: 1}}>
-            <div className="main--chungtoi">Chúng tôi là Hội tình nguyện</div>
+            <div className="main--chungtoi">Chúng tôi là Hội từ thiện</div>
 
             <div className="main--mission">Nhiệm vụ của chúng tôi</div>
 
             <div className="main--la">
-             là truyền cảm hứng, thúc đẩy và trao quyền cho các cá nhân tham gia vào những phong trào tình nguyện tại Việt Nam.
+             là truyền cảm hứng, thúc đẩy và trao quyền cho các cá nhân tham gia vào những phong trào từ thiện tại Việt Nam.
             </div>
           </div>
 
@@ -53,9 +53,9 @@ const Main = () => {
           <div style={{backgroundColor: 'black', position: 'absolute', top: 0, left: 0,
           right: 0, bottom: 0, opacity: 0.3, zIndex: 0}}></div>
           <div className="main--problem" style={{zIndex: 1}}>
-            <h1 className="main--problem1" style={{width: '80%'}}>Tình Nguyện - Sức Mạnh của Lòng Nhân Ái</h1>
+            <h1 className="main--problem1" style={{width: '80%'}}>Từ thiện - Sức Mạnh của Lòng Nhân Ái</h1>
             <div className="main--problem2">
-            Chúng ta sống trong một thế giới đầy thách thức và cơ hội, và tình nguyện đã trở thành một phần quan trọng của cuộc sống xã hội. Tại Kindness, chúng tôi tin tưởng rằng tình nguyện là nguồn sức mạnh của lòng nhân ái và có khả năng biến đổi cuộc sống.
+            Chúng ta sống trong một thế giới đầy thách thức và cơ hội, và từ thiện đã trở thành một phần quan trọng của cuộc sống xã hội. Tại Kindness, chúng tôi tin tưởng rằng từ thiện là nguồn sức mạnh của lòng nhân ái và có khả năng biến đổi cuộc sống.
             </div>
           </div>
 

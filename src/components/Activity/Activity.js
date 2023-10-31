@@ -11,7 +11,7 @@ const Activity = () => {
                     <div className = "frame62" style={{zIndex: 1}}>
                         <div className = "frame61">
                             <div className = "phongtrao">
-                            Phong trào “tình nguyện”
+                            Phong trào “từ thiện”
                             </div>
                             <div className = "nangcao">Nâng cao nhận thức cộng đồng.</div>
                         </div>
@@ -35,9 +35,9 @@ const Activity = () => {
                     <div className = "frame62">
                         <div className = "frame61" style={{zIndex: 1}}>
                             <div className = "phongtrao">
-                            Tình nguyện khuyên góp
+                            Từ thiện khuyên góp
                             </div>
-                            <div className = "nangcao" >Nhóm bạn trẻ genZ tình nguyện khuyên góp</div>
+                            <div className = "nangcao" >Nhóm bạn trẻ genZ từ thiện khuyên góp</div>
                         </div>
 
                         <div className = "donrac" style={{zIndex: 1}}>

@@ -140,12 +140,7 @@ const Header = () => {
               ) : null}
               Hành động
             </div>
-            {/* <div className="header--option" onClick={handleExchangeClick}>
-              {pathname === "/exchange" ? (
-                <div className="header--option_chosen"></div>
-              ) : null}
-              Đổi quà
-            </div> */}
+
             <div className="header--option" onClick={handleContactClick}>
               {pathname === "/contact" ? (
                 <div className="header--option_chosen"></div>
@@ -202,6 +197,12 @@ const Header = () => {
                           onClick={handleUserMissionsClicked}
                         >
                           Nhiệm vụ
+                        </div>
+                        <div
+                          className="header--avatar_userbox_option header--avatar_userbox_missions"
+                          onClick={handleExchangeClick}
+                        >
+                          Đổi quà
                         </div>
                       </>
                     ) : null}

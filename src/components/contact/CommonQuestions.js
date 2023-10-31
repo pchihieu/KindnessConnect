@@ -32,7 +32,7 @@ const CommonQuestions = () => {
             "Những cơ hội cho bạn tham gia"
           }
           answer={
-            "Chúng tôi tin rằng mọi người đều có khả năng thay đổi cuộc sống của người khác. Hãy cùng Kindness: tình nguyện, quyên góp, tham gia sự kiện, .... Mọi bước đi nhỏ của bạn có thể tạo nên sự khác biệt lớn."
+            "Chúng tôi tin rằng mọi người đều có khả năng thay đổi cuộc sống của người khác. Hãy cùng Kindness: từ thiện-quyên góp, tham gia sự kiện, .... Mọi bước đi nhỏ của bạn có thể tạo nên sự khác biệt lớn."
           }
         />
         <Question
@@ -48,13 +48,13 @@ const CommonQuestions = () => {
         <Question
           question={"Tiền đóng góp sẽ được Kindness sử dụng thế nào?"}
           answer={
-            "Kindness sẽ dùng tiền quyên góp của các bạn để bảo trì web hoặc mua thêm các phần thưởng cho tình nguyện viên tham gia nhiệm vụ, tạo niềm vui để các bạn tích cực tham gia."
+            "Kindness sẽ dùng tiền quyên góp của các bạn để bảo trì web hoặc mua thêm các phần thưởng cho thành viên nhiệm vụ, tạo niềm vui để các bạn tích cực tham gia."
           }
         />
         <Question
           question={"Tôi có thể đóng góp cho Kindness bằng cách nào?"}
           answer={
-            "Các bạn có thể tham gia nhiệm vụ với tư cách tình nguyện viên của chúng tôi. Bạn cũng có thể quyên góp từ thiện cho chúng tôi và nhận được quyền truy cập những thông tin mới nhất của dự án."
+            "Các bạn có thể tham gia nhiệm vụ với tư cách từ thiện viên của chúng tôi. Bạn cũng có thể quyên góp cho chúng tôi và nhận được quyền truy cập những thông tin mới nhất của dự án."
           }
         />
       </div>

@@ -11,7 +11,7 @@ const About = () => {
         <div className="about--who">
           <div className="about--headline">Chúng tôi là ai?</div>
           <div className="about--text">
-          Là những học sinh,tình nguyện viên nguyện giúp đỡ mọi người. Chúng tôi được thành lập bởi một nhóm những người tâm huyết, sẵn sàng đặt cả trái tim và tâm hồn vào công việc thiện nguyện.
+          Là những học sinh, từ thiện giúp đỡ mọi người. Chúng tôi được thành lập bởi một nhóm những người tâm huyết, sẵn sàng đặt cả trái tim và tâm hồn vào công việc từ thiện.
           </div>
         </div>
       </div>
